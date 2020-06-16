@@ -32,7 +32,7 @@ function runOpenshiftConnectorTest(){
     -e DELETE_WORKSPACE_ON_FAILED_TEST=true \
     -e TEST_SUITE=test-openshift-connector \
     -e NODE_TLS_REJECT_UNAUTHORIZED=0 \
-    maxura/e2e-tests:CHE-16927 || IS_TESTS_FAILED=true
+     quay.io/eclipse/che-e2e:nightly || IS_TESTS_FAILED=true
     
 }
 
